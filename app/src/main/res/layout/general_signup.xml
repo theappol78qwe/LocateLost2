@@ -149,50 +149,7 @@
                     android:textSize="12sp"/>
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:elevation="1dp"
-                    android:translationZ="1dp"
-                    android:layout_gravity="start|center_vertical"
-                    android:text="sign_up_as" />
-
-                <RadioGroup
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/groupRadioButton"
-                    android:checkedButton="@+id/patientRadioButton"
-                    android:orientation="horizontal">
-
-                    <RadioButton
-                        android:id="@+id/patientRadioButton"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="16dp"
-                        android:text="patient" />
-
-                    <RadioButton
-                        android:id="@+id/doctorRadioButton"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="24dp"
-                        android:text="doctor" />
-
-                </RadioGroup>
-            </LinearLayout>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:layout_marginEnd="16dp"
-                android:layout_marginTop="4dp"
-                android:text="can_t_be_changed_later" />
 
             <Button
                 android:id="@+id/button_signup_signup"
